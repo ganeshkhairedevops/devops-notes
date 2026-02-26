@@ -41,3 +41,41 @@ Terminate a process.
 
 Example:
 kill 1234   # Replace 1234 with PID
+
+## top
+Display real-time system information.
+Example:
+```
+top
+```
+## grep
+Search for a pattern in files.
+Example:
+```
+grep "error" /var/log/syslog
+```
+## find
+Search for files in a directory hierarchy.
+Example:
+```
+find /home/user -name "*.txt"
+```
+## tar
+Archive files.
+Example:
+```
+tar -czvf archive.tar.gz /path/to/directory
+```
+## ssh
+Connect to a remote server.
+Example:
+```
+ssh user@remote-server
+```
+## scp
+Copy files between hosts.
+Example:
+```
+scp file.txt user@remote-server:/path/to/destination
+```
+
